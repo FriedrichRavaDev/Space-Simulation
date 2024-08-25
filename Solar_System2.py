@@ -6,7 +6,7 @@ windowWidth = 1900
 windowHeight = 1200
 pygame.init()
 pygame.mixer.init()
-pygame.mixer.music.load("C:/Users/fede0/source/repos/Solar System/One Hour of Soviet Music - Space Program.mp3")
+pygame.mixer.music.load("path/One Hour of Soviet Music - Space Program.mp3")
 pygame.mixer.music.play()
 surface = pygame.display.set_mode((windowWidth, windowHeight))
 pygame.display.set_caption('Советская космическая программа')
@@ -20,7 +20,7 @@ green = (0, 255, 0)
 white = (255, 255, 255)
 gray = (128, 128, 128)
 
-image = Image.open("C:/Users/fede0/source/repos/Solar System/Earth.png")
+image = Image.open("path/Solar System/Earth.png")
 image = image.convert('RGBA')
 mode = image.mode
 size = image.size
@@ -28,7 +28,7 @@ data = image.tobytes()
 
 image_surface = pygame.image.fromstring(data, size, mode)
 
-image1 = Image.open("C:/Users/fede0/source/repos/Solar System/Sun.gif")
+image1 = Image.open("path/Sun.gif")
 image1 = image1.convert('RGBA')
 mode1 = image1.mode
 size1 = image1.size
@@ -36,7 +36,7 @@ data1 = image1.tobytes()
 
 image_surface1 = pygame.image.fromstring(data1, size1, mode1)
 
-image2 = Image.open("C:/Users/fede0/source/repos/Solar System/Moon.png")
+image2 = Image.open("path/Moon.png")
 image2 = image2.convert('RGBA')
 mode2 = image2.mode
 size2 = image2.size
@@ -44,7 +44,7 @@ data2 = image2.tobytes()
 
 image_surface2 = pygame.image.fromstring(data2, size2, mode2)
 
-image3 = Image.open("C:/Users/fede0/source/repos/Solar System/Mars.png")
+image3 = Image.open("path/Mars.png")
 image3 = image3.convert('RGBA')
 mode3 = image3.mode
 size3 = image3.size
@@ -52,7 +52,7 @@ data3 = image3.tobytes()
 
 image_surface3 = pygame.image.fromstring(data3, size3, mode3)
 
-image4 = Image.open("C:/Users/fede0/source/repos/Solar System/Sputnik1.png")
+image4 = Image.open("path/Sputnik1.png")
 image4 = image4.convert('RGBA')
 mode4 = image4.mode
 size4 = image4.size
@@ -60,7 +60,7 @@ data4 = image4.tobytes()
 
 image_surface4 = pygame.image.fromstring(data4, size4, mode4)
 
-imageSoviet_mars = Image.open("C:/Users/fede0/source/repos/Solar System/Mars-1.png")
+imageSoviet_mars = Image.open("path/Mars-1.png")
 imageSoviet_mars = imageSoviet_mars.convert('RGBA')
 modeSoviet_mars = imageSoviet_mars.mode
 sizeSoviet_mars = imageSoviet_mars.size
